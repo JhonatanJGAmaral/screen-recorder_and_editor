@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.record-btn {
+  width: 600px;
+  height: 100px;
+  display: block;
+  margin: 10px auto 0 auto;
+  background-image: url('./img/ANDROID.gif');
+  border: none;
+}
+
+.record-btn:active {
+  width: 600px;
+  height: 400px;
+  margin: 10px auto 0 auto;
+  transition-duration: 0.1s;
+}
+
+.video {
+  display: block;
+  margin: 300px auto 0 auto;
+}
